@@ -1,3 +1,4 @@
+[![Build Status](https://kenryo-jp.visualstudio.com/Space%20Game%20-%20web%20-%20Pipeline/_apis/build/status/Kenryo.mslearn-tailspin-spacegame-web?branchName=master)](https://kenryo-jp.visualstudio.com/Space%20Game%20-%20web%20-%20Pipeline/_build/latest?definitionId=1&branchName=master)
 
 # Contributing
 
