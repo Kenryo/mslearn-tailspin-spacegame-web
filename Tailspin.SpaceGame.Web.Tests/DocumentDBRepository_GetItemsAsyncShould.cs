@@ -7,6 +7,7 @@ using NUnit.Framework;
 using TailSpin.SpaceGame.Web;
 using TailSpin.SpaceGame.Web.Models;
 
+
 namespace Tests
 {
     public class DocumentDBRepository_GetItemsAsyncShould
@@ -18,9 +19,11 @@ namespace Tests
         {
             using (Stream scoresData = typeof(IDocumentDBRepository<Score>)
                 .Assembly
+
                 .GetManifestResourceStream("Tailspin.SpaceGame.Web.SampleData.scores.json"))
             {
                 _scoreRepository = new LocalDocumentDBRepository<Score>(scoresData);
+
             }
         }
 
